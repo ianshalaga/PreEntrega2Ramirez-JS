@@ -46,9 +46,7 @@ const consolePrint = toPrint => console.log(toPrint);
 
 /**
  * Calcula el discriminante de un polinomio cuadrático.
- * @param {number} a - Constante a del polinomio cuadrático.
- * @param {number} b - Constante b del polinomio cuadrático.
- * @param {number} c - Constante c del polinomio cuadrático.
+ * @param {object} poly2Obj - Instancia de la clase Poly2.
  * @returns {number} - Discriminante del polinomio cuadrático.
  */
 const discriminante = (poly2Obj) => Math.pow(poly2Obj.getB(), 2) - (4 * poly2Obj.getA() * poly2Obj.getC());
